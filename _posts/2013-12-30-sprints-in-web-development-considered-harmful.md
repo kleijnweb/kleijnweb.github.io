@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Sprints in Web Development Considered Harmful"
-subtitle:   "Stop Running, Start Delivering"
+subtitle:   "Stop running, start delivering"
 date:       2013-12-30 12:00:00
 author:     "John Kleijn"
 header-img: "img/bible.jpg"
