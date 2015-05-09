@@ -78,7 +78,7 @@ terrorism. The point is that corporations, worldwide, are not standing
 in line to throw their IT infrastructure "off-premises", unless they
 have a trusted local provider.
 
-![](http://kleijnweb.nl/wp-content/uploads/2015/04/dl40display.jpg)
+![](/img/growth-of-cloud-computing.jpg)
 <span class="caption text-muted">From a ZDNet blog post by Dion Hinchcliffe which has disappeared</span>
 
 #### The OpenStack Revolution
