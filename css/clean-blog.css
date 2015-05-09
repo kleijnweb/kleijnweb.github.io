@@ -52,9 +52,6 @@ hr.small {
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.navbar-custom .navbar-brand {
-  font-weight: 800;
-}
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
@@ -65,13 +62,6 @@ hr.small {
   .navbar-custom {
     background: transparent;
     border-bottom: 1px solid transparent;
-  }
-  .navbar-custom .navbar-brand {
-    color: white;
-  }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
-    color: #23e8a5 f;
   }
   .navbar-custom .nav li a {
     padding: 20px;
@@ -104,13 +94,6 @@ hr.small {
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
-  }
-  .navbar-custom.is-fixed .navbar-brand {
-    color: #404040;
-  }
-  .navbar-custom.is-fixed .navbar-brand:hover,
-  .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #cd5029;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
@@ -151,7 +134,7 @@ hr.small {
     padding: 150px 0;
   }
 }
-.intro-header .container {
+.intro-header .wrapper {
   background-image: url('/img/tile-opactity.png');
 }
 .intro-header .post-heading,
@@ -405,4 +388,16 @@ body {
 .post-content img {
   display: block;
   margin: 0 auto;
+}
+#home-link {
+  cursor: pointer !important;
+  line-height: 3.5em;
+}
+#home-link img {
+  display: inline;
+}
+@media only screen and (max-width: 768px) {
+  #home-link img {
+    display: none;
+  }
 }

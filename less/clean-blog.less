@@ -9,7 +9,7 @@ body {
   color: @gray-dark;
 }
 
-// -- Typography
+// Typography
 
 p {
   line-height: 1.5;
@@ -69,9 +69,6 @@ hr.small {
   width: 100%;
   z-index: 3;
   .sans-serif;
-  .navbar-brand {
-    font-weight: 800;
-  }
   .nav {
     li {
       a {
@@ -85,13 +82,6 @@ hr.small {
   @media only screen and (min-width: 768px) {
     background: transparent;
     border-bottom: 1px solid transparent;
-    .navbar-brand {
-      color: white;
-      &:hover,
-      &:focus {
-        color: @turquoisish;
-      }
-    }
 
     .nav {
       li {
@@ -126,13 +116,6 @@ hr.small {
       -webkit-transition: -webkit-transform 0.3s;
       -moz-transition: -moz-transform 0.3s;
       transition: transform 0.3s;
-      .navbar-brand {
-        color: @gray-dark;
-        &:hover,
-        &:focus {
-          color: @brand-primary;
-        }
-      }
       .nav {
         li {
           a {
@@ -175,8 +158,7 @@ hr.small {
       padding: 150px 0;
     }
   }
-  .container {
-
+  .wrapper {
     background-image: url('/img/tile-opactity.png');
   }
   .post-heading,
@@ -445,7 +427,7 @@ form .row:first-child .floating-label-form-group {
   }
 }
 
-// -- Highlight Color Customization
+// Highlight Color Customization
 
 ::-moz-selection {
   color: white;
@@ -473,6 +455,7 @@ body {
   webkit-tap-highlight-color: @brand-primary;
 }
 
+// Hackish tweaks
 .navbar-fixed-top {
   background-color: #fff;
 }
@@ -481,5 +464,19 @@ body {
   img {
     display: block;
     margin: 0 auto;
+  }
+}
+
+#home-link {
+  cursor: pointer !important;
+  line-height: 3.5em;
+
+  img {
+    display: inline;
+  }
+  @media only screen and (max-width: 768px) {
+    img {
+      display: none;
+    }
   }
 }
