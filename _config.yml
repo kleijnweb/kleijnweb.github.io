@@ -1,0 +1,18 @@
+# Site settings
+title: KleijnWeb Blog
+author: KleijnWeb
+header-img: img/home-bg.jpg
+email: john@kleijnweb.nl
+description: "Blog of KleijnWeb, the professional persona of senior web developer John Kleijn"
+baseurl: ""
+url: "http://kleijnweb.nl"
+twitter_username: KleijnWeb
+github_username:  kleijnweb
+linkedin_username: kleijnweb
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
